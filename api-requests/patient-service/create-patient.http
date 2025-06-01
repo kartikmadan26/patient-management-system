@@ -1,0 +1,13 @@
+### POST request to create patient
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Kartik Madan test 2 with billing account",
+  "email": "kafkatest@gmail.com",
+  "address": "123 main street",
+  "dateOfBirth": "2002-08-26",
+  "registeredDate": "2025-05-10"
+}
+
+###
